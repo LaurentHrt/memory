@@ -1,7 +1,7 @@
-import PropTypes from "prop-types"
-import React from "react"
+import PropTypes from 'prop-types'
+import React from 'react'
 
-import "./GuessCount.css"
+import './GuessCount.css'
 
 const GuessCount = ({ guesses }) => <div className="guesses">{guesses}</div>
 
